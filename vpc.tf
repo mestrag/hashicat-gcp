@@ -2,7 +2,7 @@ module "network" {
   source  = "terraform-google-modules/network/google"
   version = "2.5.0"
   # insert the 3 required variables here
-  network_name = raghu26-network
+  network_name = "raghu26-network"
   project_id = var.project
   subnets = [
   {
